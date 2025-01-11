@@ -4,6 +4,19 @@
     font-style: normal;
   }
 
+  /* shared-style */
+  .section-title{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .description{
+    color: #0E0E0EB3;
+    font-size: 16px;
+    font-weight: 400;
+
+  }
+
 /* NAV style */
 nav{
     display: flex;
@@ -57,4 +70,85 @@ nav li a{
 .banner-image{
     height: 400px;
     width: 474px;
+}
+
+/* Pillars of "Bangladesh 2.0" */
+.pillars-title{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Pillars-container{
+    display: flex;
+    background-color: #F5F5F5;
+    gap: 24;
+}
+.main{
+    justify-content: space-around;
+    margin: 24px 80px 0px 80px;
+    padding: 10px 80px;}
+body{
+    background-color: #F5F5F5;
+}
+.pillars{
+    /* height: 244px; */
+    /* width: 302px; */
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 24px;
+}
+/* Vision section */
+.vision-card-container{
+    display: flex;
+    margin-bottom: 32px;
+}
+.vision-card1{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 10px;
+    padding: 32px;
+    margin: 32px 24px 0px 0px;
+}
+.vision-card2{
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 10px;
+    padding: 32px;
+    margin: 32px 24px 0px 24px;
+}.vision-card3{
+    background-color: rgba(247, 235, 207, 1);
+    border-radius: 10px;
+    padding: 32px;
+    margin: 32px 0px 0px 24px;
+}
+div button a{
+    text-decoration: none;
+}
+.vision-btn1{
+    background-color: #5490F5;
+    padding: 11px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.vision-btn2{
+    background-color: #09A15C;
+    padding: 11px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.vision-btn3{
+    background-color: #FFC239;
+    padding: 11px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Quote */
+.quote{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 48px 24px;
+}
+.quote-img{
+    position: absolute;
 }
