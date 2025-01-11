@@ -70,6 +70,10 @@ nav li a{
     font-size: 18px;
     font-weight: 600;
 }
+.banner-button:hover {
+    background-color: red;
+    color: white;
+} 
 .banner-image{
     height: 400px;
     width: 474px;
@@ -97,6 +101,10 @@ body{
     border-radius: 10px;
     margin: 15px;
     padding: 24px;
+}
+.pillars:hover {
+    background-color: #2F7353;
+    color: white;
 }
 /* Vision section */
 .vision-card-container{
@@ -129,17 +137,29 @@ div button a{
     border-radius: 10px;
     border: none;
 }
+.vision-btn1:hover {
+    background-color: #2F7353;
+    color: white;
+}
 .vision-btn2{
     background-color: #09A15C;
     padding: 11px 20px;
     border-radius: 10px;
     border: none;
 }
+.vision-btn2:hover {
+    background-color: #2F7353;
+    color: white;
+}
 .vision-btn3{
     background-color: #FFC239;
     padding: 11px 20px;
     border-radius: 10px;
     border: none;
+}
+.vision-btn3:hover {
+    background-color: #2F7353;
+    color: white;
 }
 /* opinion */
 .opinion-container{
@@ -184,6 +204,10 @@ div button a{
     border: none;
     color: #fff;
 }
+.news-btn:hover {
+    background-color: red;
+    color: white;
+}
 .news-container1{
     margin-bottom: 30px;
 }
@@ -201,6 +225,10 @@ div button a{
     margin: 5px;
     font-size: 30px;
     font-weight: bold;
+}
+.donate-btn:hover {
+    background-color: #2F7353;
+    color: white;
 }
 .other-amount{
     margin: 20px;
