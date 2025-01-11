@@ -9,6 +9,7 @@
     color: #0E0E0E;
     font-size: 40px;
     font-weight: 700;
+    margin: 20px 0px;
   }
   .description{
     color: #0E0E0EB3;
@@ -21,7 +22,6 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 24px 160px 0px 160px;
 }
 .nav-title{
     font-size: 32px;
@@ -46,7 +46,6 @@ nav li a{
     padding: 100px 80px;
     display: flex;
     justify-content: space-between;
-    margin: 24px 160px 0px 160px;
     border-radius: 20px;
 }
 .banner-container{
@@ -85,15 +84,11 @@ nav li a{
     gap: 24;
 }
 .main{
-    justify-content: space-around;
-    margin: 24px 80px 0px 80px;
     padding: 10px 80px;}
 body{
     background-color: #F5F5F5;
 }
 .pillars{
-    /* height: 244px; */
-    /* width: 302px; */
     background-color: #fff;
     border-radius: 10px;
     margin: 15px;
@@ -152,3 +147,62 @@ div button a{
 .quote-img{
     position: absolute;
 }
+.opinion-th{
+    display: flex;
+}
+/* NEWS */
+.news-title{
+    color: #0E0E0ECC;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 5px;
+}
+.news-container{
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.news-image{
+    border-radius: 15px;
+    margin: 0px 20px 10px 10px;
+
+}
+.news-btn{
+    background-color: #006A50;
+    padding: 11px 20px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+.news-container1{
+    margin-bottom: 30px;
+}
+.donate-section{
+    text-align: center;
+}
+.donate-btn-container{
+
+}
+.donate-btn{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.other-amount{
+    margin: 20px;
+    padding: 15px 200px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+.newslatter-container{
+    background-color: #C6E4D6;
+    text-align: center;
+}
+
