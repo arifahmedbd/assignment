@@ -41,6 +41,10 @@ nav li a{
     padding: 22px 56px;
     border-color: #006A50;
 }
+.nav-btn:hover{
+    background-color: #2F7353;
+    color: white;
+}
 .banner{
     background-color: #C6E4D6;
     padding: 100px 80px;
@@ -137,6 +141,10 @@ div button a{
     border-radius: 10px;
     border: none;
 }
+/* opinion */
+.opinion-container{
+    background-color: #fff;
+}
 
 /* Quote */
 .quote{
@@ -204,5 +212,40 @@ div button a{
 .newslatter-container{
     background-color: #C6E4D6;
     text-align: center;
+    padding: 50px;
+}
+.email-btn{
+    margin: 20px;
+    padding: 15px 200px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: black;
+}
+.Subscribe-btn{
+    background-color: #006A50;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    padding: 15px;
+    margin-left: -25px;
+}
+hr{
+    width: 1000px;
+}
+.footer{
+    text-align: center;
+}
+.footer-title{
+        padding: 20px;
+}
+.footer-icon{
+    padding: 20px;
+}
+.icon-1{
+    padding-right: 10px;
+}
+.icon-3{
+    padding-left: 10px;
 }
 
